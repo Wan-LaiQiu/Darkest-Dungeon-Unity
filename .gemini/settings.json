@@ -1,0 +1,21 @@
+{
+  "experimental": {
+    "enableAgents": true
+  },
+  "agents": {
+    "overrides": {
+      "doc-writer": {
+        "enabled": true,
+        "runConfig": {
+          "maxTurns": 20
+        }
+      },
+      "doc-validator": {
+        "enabled": true,
+        "runConfig": {
+          "maxTurns": 10
+        }
+      }
+    }
+  }
+}

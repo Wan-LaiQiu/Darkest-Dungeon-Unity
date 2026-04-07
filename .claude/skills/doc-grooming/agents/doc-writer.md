@@ -2,11 +2,10 @@
 name: doc-writer
 description: 专门负责编写系统技术文档、接口文档、流程图（使用 Mermaid）和系统架构说明。能够深入代码库理解逻辑并转化为易懂的文档。
 tools:
-  - read_file
+  - rider_mcp(优先)
   - grep_search
   - codebase_investigator
   - list_directory
-model: gemini-3-flash-preview
 ---
 
 # Role
@@ -46,6 +45,7 @@ model: gemini-3-flash-preview
 执行链路详述： 按步骤拆解代码逻辑，并在关键处附带你搜索到的代码片段（带中文注释）。
 设计哲学推演： 分析这段代码的架构亮点（如：高内聚、解耦、设计模式等）。
 文档可读性： 重要部分贴出源码，使用富文本标记关键词。
+使用示例： 对照文档内容就能使用该系统或工具
 
 
 # Constraints

@@ -1,1 +1,2 @@
 - [项目文档目录](project_doc_directory.md) — 文档统一存放在 Assets\Doc
+- [文件展示偏好](feedback_file_display.md) — 看代码文件时直接读取展示，不给链接
